@@ -1,47 +1,33 @@
-# Bank Account Management System
-This is a simple bank account management system implemented in Java. The program allows users to create accounts, deposit money, withdraw money, and check their balance.
+# Library Management System
+The Library Management System is a basic Java application that allows users to manage a library by adding books, searching for books, checking out books, and returning books. The book details are stored in a file.
 
 ## Features
-- Create a new bank account.
-- Deposit money into an existing bank account.
-- Withdraw money from an existing bank account.
-- Check the balance of an existing bank account.
-
-## Getting Started
-
-### Prerequisites
-- Java Development Kit (JDK) installed on your machine.
-
-### Running the Program
-1. Clone the repository:
-```
-git clone https://github.com/kalutu/bank-account-management-system.git
-```
-
-2. Navigate to the project directory:
-```
-cd bank-account-management-system
-```
-
-3. Compile the Java file:
-```
-javac BankAccountManagementSystem.java
-```
-
-4. Run the program:
-```
-java BankAccountManagementSystem
-```
-
-5. Follow the on-screen instructions to perform various operations on the bank accounts.
+- Add a book: Users can add a new book to the library by providing the title and author.
+- Search for books: Users can search for books by entering a keyword. The system will display a list of books matching the keyword.
+- Check out a book: Users can check out a book by specifying its title. If the book is available, it will be marked as checked out.
+- Return a book: Users can return a checked-out book by specifying its title. The book will be marked as available.
 
 ## Usage
-- Choose options from the provided menu to create accounts, deposit money, withdraw money, or check balances.
-- Enter the required information as prompted by the program.
-- The program will provide appropriate messages and notifications based on the selected options.
+1. Compile the Java source code: `javac LibraryManagementSystem.java`
+2. Run the application: `java LibraryManagementSystem`
+3. Follow the prompts in the command-line interface to interact with the Library Management System.
+4. Enter `0` to exit the application. The book details will be automatically saved to the file.
+
+## File Storage
+The book details are stored in a file named `library.txt`. The file follows a comma-separated format where each line represents a book and contains the title, author, and checkout status (true/false).
+
+To customize the file name or location, modify the code in `Library.java` where the `saveBooksToFile()` and `loadBooksFromFile()` methods are called.
+
+## Note
+This implementation is a basic version of a library management system and does not include advanced features such as user authentication, database integration, or error handling. It serves as a starting point that can be enhanced and customized as per specific requirements.
+
+Feel free to modify and extend the code to suit your needs.
 
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
 
 ## Credits
 This project is created by Kalutu Daniel.
+
+
+
