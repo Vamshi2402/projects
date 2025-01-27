@@ -1,23 +1,47 @@
-# Simple Calculator in Java
-This is a simple calculator program written in Java that can perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
+# Bank Account Management System
+This is a simple bank account management system implemented in Java. The program allows users to create accounts, deposit money, withdraw money, and check their balance.
 
-## How to Use
-- Clone or download the repository to your local machine.
-- Open the project in your Java development environment.
-- Compile and run the Calculator.java file.
-- Follow the on-screen prompts to enter two numbers and an operator (+, -, *, /).
-- The program will perform the corresponding arithmetic operation and display the result.
+## Features
+- Create a new bank account.
+- Deposit money into an existing bank account.
+- Withdraw money from an existing bank account.
+- Check the balance of an existing bank account.
 
-# Features
-- Simple and easy-to-use interface
-- Handles division by zero error
-- Performs basic arithmetic operations (+, -, *, /)
+## Getting Started
 
-# Dependencies
-Java SE Development Kit 8 or later
+### Prerequisites
+- Java Development Kit (JDK) installed on your machine.
+
+### Running the Program
+1. Clone the repository:
+```
+git clone https://github.com/kalutu/bank-account-management-system.git
+```
+
+2. Navigate to the project directory:
+```
+cd bank-account-management-system
+```
+
+3. Compile the Java file:
+```
+javac BankAccountManagementSystem.java
+```
+
+4. Run the program:
+```
+java BankAccountManagementSystem
+```
+
+5. Follow the on-screen instructions to perform various operations on the bank accounts.
+
+## Usage
+- Choose options from the provided menu to create accounts, deposit money, withdraw money, or check balances.
+- Enter the required information as prompted by the program.
+- The program will provide appropriate messages and notifications based on the selected options.
 
 ## Contributing
-Contributions to this project are welcome. If you find a bug or have a suggestion for improvement, please open an issue or submit a pull request.
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
 
 ## Credits
-This project was created by Kalutu Daniel.
+This project is created by Kalutu Daniel.
